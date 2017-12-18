@@ -127,7 +127,7 @@ button:focus {
 /* Works in Safari */
 
 ::selection {
-    background-color: #e74c3c;
+    background-color: #36c6f4;
     color: #ffffff;
 }
 .btn:focus,
@@ -152,8 +152,8 @@ button:focus {
     text-transform: capitalize;
 }
 .section-title span {
-    color: #e74c3c;
-    ;
+    color: #36c6f4;
+   
 }
 .section-description {
     font-size: 1em;
@@ -245,40 +245,40 @@ button:focus {
     transition: all .3s ease-in-out;
 }
 .service-details .col-sm-6:first-child .item {
-    border: 1px solid #e74c3c;
+    border: 1px solid #36c6f4;
 }
 .service-details .col-sm-6:nth-child(2) .item {
-    border: 1px solid #7dbb18;
+    border: 1px solid #2d3f5c;
 }
 .service-details .col-sm-6:nth-child(3) .item {
-    border: 1px solid #00cccc;
+    border: 1px solid #36c6f4;
 }
 .service-details .col-sm-6:nth-child(4) .item {
-    border: 1px solid #ffcc00;
+    border: 1px solid #2d3f5c;
 }
 .service-details .col-sm-6:first-child .item-icon {
-    color: #e74c3c;
+    color: #36c6f4;
 }
 .service-details .col-sm-6:nth-child(2) .item-icon {
-    color: #7dbb18;
+    color: #2c3e5b;
 }
 .service-details .col-sm-6:nth-child(3) .item-icon {
-    color: #00cccc;
+    color: #36c6f4;
 }
 .service-details .col-sm-6:nth-child(4) .item-icon {
-    color: #ffcc00;
+    color: #2c3e5b;
 }
 .service-details .col-sm-6:first-child .item:hover {
-    background: #e74c3c;
+    background: #36c6f4;
 }
 .service-details .col-sm-6:nth-child(2) .item:hover {
-    background: #7dbb18;
+    background: #2d3f5c;
 }
 .service-details .col-sm-6:nth-child(3) .item:hover {
-    background: #00cccc;
+    background: #36c6f4;
 }
 .service-details .col-sm-6:nth-child(4) .item:hover {
-    background: #ffcc00;
+    background: #2d3f5c;
 }
 .service-details .item-icon {
     font-size: 5em;
@@ -298,16 +298,16 @@ button:focus {
     padding: 0px 15%;
 }
 .about-breifing .col-sm-6:first-child {
-    background: #333131;
+    background: #36c6f4;
 }
 .about-breifing .col-sm-6:nth-child(2) {
-    background: #e65d4e;
+    background: #2c3e5b;
 }
 .about-breifing .col-sm-6:nth-child(3) {
-    background: #333131;
+    background: #36c6f4;
 }
 .about-breifing .col-sm-6:nth-child(4) {
-    background: #e74c3c;
+    background: #2c3e5b;
 }
 .item-no .count {
     font-size: 6.25em;
@@ -332,10 +332,10 @@ button:focus {
     font-size: .8125em;
 }
 .about-top .btn {
-    border: 2px solid #e74c3c;
+    border: 2px solid #1b2f4f;
 }
 .about-top .btn:hover {
-    background: #e74c3c;
+    background: #1b2f4f;
     color: #ffffff;
 }
 .progress {
@@ -347,7 +347,7 @@ button:focus {
     margin-bottom: 15px;
 }
 .progress-bar {
-    background: #e74c3c;
+    background: #2c3e5b;
     font-size: 13px;
     line-height: 30px;
     padding-left: 25px;
@@ -375,7 +375,7 @@ button:focus {
     color: #ffffff;
 }
 .bg-overlay {
-    background-color: rgba(231, 76, 60, 0.75);
+    background-color: rgba(60, 231, 223, 0.75);
 }
 .subscribe-section .section-description {
     color: #ffffff;
@@ -473,7 +473,7 @@ button:focus {
 }
 .itemFilter a {
     background-color: #ffffff;
-    border: 2px solid #e74c3c;
+    border: 2px solid #1b2f4f;
     color: #a7a7a8;
     display: inline-block;
     font-size: .8125em;
@@ -483,8 +483,8 @@ button:focus {
     text-transform: capitalize;
 }
 .itemFilter .current {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
+    background-color: #1b2f4f;
+    border-color: #1b2f4f;
     color: #ffffff;
 }
 .project-items .item {
@@ -513,7 +513,7 @@ button:focus {
 }
 .project-items .image-popup-vertical-fit:before {
     content: '';
-    background: rgba(231, 76, 60, 0.7);
+    background: rgba(82, 212, 251, 0.7);
     cursor: url(../../images/cursor.png) 30 30, crosshair;
     width: 0%;
     height: 100%;
@@ -559,12 +559,12 @@ button:focus {
 }
 .latest-projects .btn,
 .blog .btn {
-    border: 2px solid #e74c3c;
+    border: 2px solid #2b3d5a;
     padding: 13px 30px;
 }
 .latest-projects .btn:hover,
 .blog .btn:hover {
-    background-color: #e74c3c;
+    background-color: #2b3d5a;
     color: #ffffff;
 }
 /* 8 ------- Sponsors Section Styles -------*/
@@ -1128,13 +1128,13 @@ footer {
     padding: 0px;
 }
 .footer-social .col-xs-4:first-child {
-    background-color: #3b5998;
+    background-color: #0b2042;
 }
 .footer-social .col-xs-4:nth-child(2) {
-    background-color: #00bdec;
+    background-color: #36c6f4;
 }
 .footer-social .col-xs-4:nth-child(3) {
-    background-color: #e45c8f;
+    background-color: #0b2042;
 }
 .footer-social .social-icon {
     font-size: 2.8em;
@@ -1299,7 +1299,7 @@ footer .widget-title {
     padding: 28px 0px;
 }
 .footer-bottom a {
-    color: #e74c3c;
+    color: #36c6f4;
 }
 .footer-bottom a:hover {
     color: #686c77;
@@ -1316,7 +1316,7 @@ footer .widget-title {
     font-size: 1.5em;
     height: 40px;
     width: 40px;
-    background-color: #e74c3c;
+    background-color: #36c6f4;
     color: #ffffff;
     line-height: 40px;
     color: #ffffff;
@@ -1333,5 +1333,5 @@ footer .widget-title {
     opacity: 1;
 }
 .read-more{
-    color: #e74c3c;
+    color: #1b2f4f;
 }
