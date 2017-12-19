@@ -53,7 +53,7 @@ html,
 body {
     background: #ffffff;
     font-family: 'Lato', 'Belgrano', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     -webkit-font-smoothing: subpixel-antialiased !important;
     -moz-font-smoothing: subpixel-antialiased !important;
     -ms-font-smoothing: subpixel-antialiased !important;
@@ -85,9 +85,11 @@ a:hover {
     text-decoration: none;
 }
 p {
-    color: #a7a7a8;
+    color: #05053c;
     font-weight: 400;
     line-height: 23px;
+    font-style:italic;
+    font-family:Calibri;
 }
 ul {
     margin: 0px;
@@ -185,7 +187,7 @@ button:focus {
 /* 3 -------- Header Styles ---------*/
 
 .masthead {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(23, 75, 146, 0.8);
     border: none;
     border-radius: 0px;
     box-shadow: none;
@@ -216,7 +218,7 @@ button:focus {
     padding: 25px 20px;
 }
 .bg-change {
-    background: #333131;
+    background: #214b85;
 }
 .bg-change .navbar-brand {
     padding-top: 8px;
@@ -1292,9 +1294,9 @@ footer .widget-title {
 /* 16.2 ----- Footer Bottom ------*/
 
 .footer-bottom {
-    background: #282a2e;
+    background: #456fa8;
     border-bottom: 2px solid #ffffff;
-    color: #686c77;
+    color: #36c6f4;
     font-size: .8125em;
     padding: 28px 0px;
 }
@@ -1334,4 +1336,7 @@ footer .widget-title {
 }
 .read-more{
     color: #1b2f4f;
+}
+.bx-viewport {
+    height:350px !important; 
 }
