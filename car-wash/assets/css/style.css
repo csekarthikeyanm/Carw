@@ -53,7 +53,7 @@ html,
 body {
     background: #ffffff;
     font-family: 'Lato', 'Belgrano', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     -webkit-font-smoothing: subpixel-antialiased !important;
     -moz-font-smoothing: subpixel-antialiased !important;
     -ms-font-smoothing: subpixel-antialiased !important;
@@ -1298,7 +1298,7 @@ footer .widget-title {
     border-bottom: 2px solid #ffffff;
     color: #36c6f4;
     font-size: .8125em;
-    padding: 28px 0px;
+    padding: 10px 0px;
 }
 .footer-bottom a {
     color: #36c6f4;
