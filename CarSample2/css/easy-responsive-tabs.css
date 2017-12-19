@@ -1,0 +1,64 @@
+﻿.resp-tabs-list li {display: inline-block;cursor: pointer;float: left;width:20%;text-align: center;box-sizing: border-box;border-right:solid #AAAAAA 1px;transition-duration: 0.5s;}
+    .resp-tabs-list li:nth-child(5){border: none;}
+.resp-tabs-container {padding: 0px;background-color: #fff;clear: left;transition-duration: 0.5s;}
+
+h2.resp-accordion {cursor: pointer;display: none;}
+
+.resp-tab-content {display: none;float: left;}
+
+.resp-tab-active {border-bottom: none;transition-duration: 0.5s;}
+
+.resp-tab-active {border-bottom: none; }
+    .resp-tab-active span {opacity:1 !important;transition-duration: 0.5s;}
+    .resp-tab-active i {opacity:1 !important;transition-duration: 0.5s;}
+    .resp-tab-active .tabImg {opacity:1 !important;transition-duration: 0.5s;}
+.resp-content-active, .resp-accordion-active {display: block;transition-duration: 0.5s;}
+
+.resp-tab-content {}
+
+h2.resp-accordion {;margin: 0px;border-bottom: solid #c1c1c1 1px;float: left;width:100%;}
+
+h2.resp-tab-active {}
+
+h2.resp-tab-title:last-child {border-bottom: 12px solid #c1c1c1 !important;background: blue;}
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {background: #fff !important;border-bottom: solid #ccc 1px;}
+.resp-easy-accordion  h2.resp-accordion {display: block;}
+.resp-easy-accordion .resp-tab-content {}
+
+.resp-easy-accordion .resp-tab-content:last-child {}
+
+.resp-jfit {width: 100%;margin: 0px;}
+
+.resp-tab-content-active {display: block;height: auto;overflow: hidden;border-bottom:solid #ccc 1px;}
+
+h2.resp-accordion:first-child {}
+.resp-accordion i {color: #be1f24;}
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 767px) {
+    ul.resp-tabs-list {display: none;}
+    h2.resp-accordion:first-child {border-top:none !important;}
+    h2.resp-accordion {display: block;border-top:solid #ccc 1px !important;}
+
+    .resp-vtabs .resp-tab-content {border: 1px solid #C1C1C1;}
+        #singleDrop .resp-tab-content .half {margin: 0 !important;}
+            .resp-tab-content .half p {width:100%;text-align: left;}
+            .resp-tab-content .half .bdBox p {width:100%;margin: 0;text-align: left;}
+    
+    .resp-vtabs .resp-tabs-container {border: none;float: none;width: 100%;min-height: initial;clear: none;}
+    .resp-accordion-closed {display:none !important;}
+    .resp-vtabs .resp-tab-content:last-child {border-bottom: 1px solid #c1c1c1 !important;}
+}
+
+.tabImg {width:40px;height: 40px;margin: auto;opacity: 0.5;}
+    .tabImg img {width:100%;}
+    
+    ul.resp-tabs-list i {font-size: 40px;display: block;text-align: center;color: #be1f24;opacity: 0.5;height: 40px;}
+    ul.resp-tabs-list span {font-size: 1.1em;padding: 6px 0 0 0;color: #be1f24;opacity: 0.5;transition-duration: 0.25s;width:100%;display: block;text-align: center;}
+    ul.resp-tabs-list li:hover span{opacity: 1;transition-duration: 0.25s;}
+    
+    
+    .icon li {width:33.33%;display: inline-block;float: left;height: auto;overflow: hidden;position: relative;}
+        .icon li .iconText h2 {margin: 12px auto 6px auto;}
+    
