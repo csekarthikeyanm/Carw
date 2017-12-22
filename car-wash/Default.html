@@ -30,19 +30,29 @@
   <!-- Include Modernizer Js -->
   <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
+    <style type="text/css">
+        .diamond1 {
+            margin: 0 auto;
+            transform-origin: 50% 50%;
+            overflow: hidden;
+            background-color: rgba(23, 75, 146, 0.8);
+            width: 100px;
+            border-radius: 24px 0px !important;
+        }
+    </style>
   
 </head>
 <body>
     <!-- Header Section -->
 
-    <header id="masthead" class="masthead navbar navbar-default navbar-fixed-top">
+    <header id="masthead" class="masthead navbar navbar-default navbar-fixed-top" style=" height:40px !important;">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Site Logo"></a>
+                <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Site Logo" class="diamond1"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,16 +61,16 @@
                     <li class="active"><a href="#main-slider">Home</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
-                        <ul class="dropdown-menu multi-level">     
-                            <li class="dropdown-submenu"><a href="AboutUs.html">About Us</a></li>                      
-                            <li class="dropdown-submenu"><a href="Whycarwash.html">Why?</a></li>
-                            <li class="dropdown-submenu"><a href="Testimonials.html">Testimonials</a></li>                           
-                          </ul>
-                        </li>
-                            <li><a href="Services.html">Services</a></li>                           
-                    <li><a href="Contact.html">Contact us</a></li>
+                        <ul class="dropdown-menu multi-level">
+                            <li class="dropdown-submenu"><a href="#about">About Us</a></li>
+                            <li class="dropdown-submenu"><a href="#aboutwhy">Why?</a></li>
+                            <li class="dropdown-submenu"><a href="#testimonial">Testimonials</a></li>
                         </ul>
-</nav><!-- /.navbar-collapse -->
+                    </li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </nav><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </header><!-- /#masthead -->
     <!-- Header Section -->
@@ -358,7 +368,6 @@
             </div><!-- /.section-padding -->
         </div>
         </section>
-
         <div class="clearfix"></div><!-- /.clearfix -->
 
         <!-- Portfolio Section -->
@@ -378,7 +387,7 @@
                             <a href="#" data-filter="" class="current">All</a>
                             <a href="#" data-filter=".cat-1">Car Wash</a>
                             <a href="#" data-filter=".cat-2">Electrical </a>
-                            <a href="#" data-filter=".cat-3"> Mechanical</a>
+                            <a href="#" data-filter=".cat-3">Mechanical</a>
                             <a href="#" data-filter=".cat-3">Allignment</a>
                         </div> <!-- /.itemFilter -->
 

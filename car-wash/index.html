@@ -30,19 +30,28 @@
   <!-- Include Modernizer Js -->
   <script src="assets/js/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
-  
+    <style type="text/css">
+    .diamond1 {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    background-color:rgba(23, 75, 146, 0.8);
+    width: 100px;
+    border-radius:24px 0px !important;    
+    }     
+    </style>
 </head>
 <body>
     <!-- Header Section -->
 
-    <header id="masthead" class="masthead navbar navbar-default navbar-fixed-top">
-        <div class="container">
+    <header id="masthead" class="masthead navbar navbar-default navbar-fixed-top" style=" height:40px !important;">
+        <div class="container"> 
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Site Logo"></a>
+                <a class="navbar-brand" href="./"><img src="images/logo.png" alt="Site Logo" class="diamond1"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -106,7 +115,7 @@
 
     <section id="aboutus" class="about">
         <div class="about-middle">
-            <div class="section-padding">                
+            <div class="section-padding" style=" padding-bottom:6px;">                
                 <div class="col-sm-6">
                     <div class="about-work wow animated fadeInRight" data-wow-delay=".5s">
                         <h2 class="section-title"><span>About</span> Us</h2><!-- /.section-title -->
