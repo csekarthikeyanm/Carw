@@ -53,7 +53,7 @@ html,
 body {
     background: #ffffff;
     font-family: 'Lato', 'Belgrano', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     -webkit-font-smoothing: subpixel-antialiased !important;
     -moz-font-smoothing: subpixel-antialiased !important;
     -ms-font-smoothing: subpixel-antialiased !important;
@@ -187,6 +187,7 @@ button:focus {
 /* 3 -------- Header Styles ---------*/
 
 .masthead {
+    height: 40px !important;
     background: rgba(23, 75, 146, 0.8);
     border: none;
     border-radius: 0px;
@@ -215,7 +216,7 @@ button:focus {
     color: #ffffff !important;
     font-size: .93em;
     font-weight: 400;
-    padding: 25px 20px;
+    
 }
 .bg-change {
     background: #214b85;
@@ -324,14 +325,14 @@ button:focus {
     font-size: 1.56em;
 }
 .about-breifing .about-item {
-    font-size: .8125em;
+   
     text-transform: capitalize;
 }
 .about-top {
     clear: both;
 }
 .know-about-us .description {
-    font-size: .8125em;
+    
 }
 .about-top .btn {
     border: 2px solid #1b2f4f;
@@ -365,7 +366,7 @@ button:focus {
     margin-left: -15px;
 }
 .about-work .description {
-    font-size: .8125em;
+    
     padding-right: 15%;
     padding-bottom: 8px;
 }
@@ -1121,6 +1122,7 @@ button:focus {
 
 footer {
     clear: both;
+        padding-top: 20px;
 }
 .footer-social .section-padding {
     padding: 60px 0px;
@@ -1294,7 +1296,7 @@ footer .widget-title {
 /* 16.2 ----- Footer Bottom ------*/
 
 .footer-bottom {
-    background: #456fa8;
+    background: rgba(23, 75, 146, 0.8);
     border-bottom: 2px solid #ffffff;
     color: #36c6f4;
     font-size: .8125em;
@@ -1340,3 +1342,11 @@ footer .widget-title {
 .bx-viewport {
     height:350px !important; 
 }
+ .diamond, .dia {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    background-color:rgb(69, 111, 168);
+    width: 100px;
+    border-radius:24px 0px !important;    
+    }     
